@@ -13,6 +13,7 @@ COPY . /src
 
 EXPOSE  8080
 
+CMD ["echo","'Start the application: '"]
 CMD ["node", "/src/index.js"]
 
 
